@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Outfit;
+  /* border: 1px solid red !important; */
 }
 
 /* use the body tag to put the card in the middle */
@@ -14,16 +15,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  flex-direction: column;
   height: 100vh;
 }
 
 /* styling for the card */
 
 .container {
-  width: 1440px;
-  height: 960px;
+  /* width: 1440px;
+  height: 960px; */
   background-color: hsl(212, 45%, 89%);
   display: flex;
   flex-direction: column;
@@ -31,6 +30,7 @@ body {
   align-items: center;
   gap: 40px;
 }
+
 .card-container {
   width: 320px;
   height: 499px;
@@ -77,10 +77,10 @@ body {
 }
 
 /* responsive design */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .container {
     width: 375px;
     height: 812px;
     background-color: hsl(218, 44%, 22%);
   }
-}
+} */
